@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patientOutsideProfile"
+    android:layout_margin="16dp">
+    <ImageView
+        android:id="@+id/userImg2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="9dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circle"
+        android:padding="3dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/userName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userImg2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userName2"
+        android:hint="Change phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_phone_number"
+        android:hint="Change Height" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_height"
+        android:hint="Change Age"/>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_age"
+        android:hint="Change Weight" />
+
+    <Button
+        android:id="@+id/change_pp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ecareColor"
+        android:textColor="@color/white"
+        android:text="Change profile picture"
+        android:layout_below="@+id/edit_age"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ecareColor"
+        android:textColor="@color/white"
+        android:text="submit"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

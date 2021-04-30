@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthData"
+    android:layout_margin="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ScrollView>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/barchart1"/>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/barchart2"/>
+
+</RelativeLayout>

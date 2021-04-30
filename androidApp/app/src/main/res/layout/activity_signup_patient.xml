@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".signupCaregiver">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="130dp" />
+        <TextView
+            android:id="@+id/createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Create Your Account:"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.DropDownItem"
+            android:textSize="35dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:inputType="text"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter First and Last name" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Email" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Password" />
+        <!--            <EditText-->
+        <!--                android:layout_width="200dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:id="@+id/PasswordAgain"-->
+        <!--                android:layout_centerHorizontal="true"-->
+        <!--                android:hint="Enter Password Again" />-->
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/PhoneNumber"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Phone Number"/>
+
+        <!--        <EditText-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/location"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:hint="Enter Location"/>-->
+
+        <!--        &lt;!&ndash;            <Spinner&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:id="@+id/countrySpinner"&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:layout_marginTop="20dp"&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--        &lt;!&ndash;                android:entries="@array/Spinner_items"/>&ndash;&gt;-->
+        <!--        <EditText-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/Instrument"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:hint="Instrument " />-->
+        <!--        <EditText-->
+
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/ExperienceYears"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:hint="Experience Years"-->
+        <!--            android:inputType="number"/>-->
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:layout_centerHorizontal="true"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="Date of Birth YYYY-MM-DD"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender"
+            android:layout_centerHorizontal="true"
+            android:hint="Gender" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight"
+            android:layout_centerHorizontal="true"
+            android:hint="Weight" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/height"
+            android:layout_centerHorizontal="true"
+            android:hint="Height" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/health"
+            android:layout_centerHorizontal="true"
+            android:hint="Health Conditions" />
+        <!--        Email, name, facebook, twitter, phone_number, instrument, exp, address, prof-->
+
+        <!--        <EditText-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/twitter"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:hint="Your Twitter URL" />-->
+
+        <!--        <EditText-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/videoURL"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:hint="Your video URL" />-->
+
+
+        <Button
+            android:layout_width="95dp"
+            android:id="@+id/signup"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            app:backgroundTint="@color/ecareColor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="127dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clickhere"
+            android:text="click here"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            app:backgroundTint="@color/ecareColor"/>
+    </LinearLayout>
+
+</ScrollView>
+
