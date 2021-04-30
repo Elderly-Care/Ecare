@@ -50,7 +50,3 @@ For more details about indoor poisitioning system from the ESP32 side [click her
 For more details about indoor poisitioning system from the fitbit side [click here](https://github.com/Elderly-Care/Ecare/tree/main/fitbit)
 - **Communication** Channel between patient and caregiver
 This can be viewed from our frontend applications using [Android](https://github.com/Elderly-Care/Ecare/tree/main/androidApp) and [iOS](https://github.com/Elderly-Care/Ecare/tree/main/iOS)
-
-
-
-
