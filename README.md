@@ -1,4 +1,7 @@
-# Ecare
+# Ecare 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image of logo](./media/logo.png)           ![Image of logo_auc](./media/auc_logo.png)
+
+
 Main Repository for the ECare graduation project.
 
 ECare is the gradution project of 5 graduating seniors from the American University in Cairo
