@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2E72E4B940258EDFC32476 /* Pods_Ecare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C77F15912B9951D1047186 /* Pods_Ecare.framework */; };
+		730062EB2611F1170033F7FA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730062E92611F1170033F7FA /* PostCell.swift */; };
+		730062EC2611F1170033F7FA /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730062EA2611F1170033F7FA /* PostCell.xib */; };
+		730791FA25D3FF1200A038B6 /* Signup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730791F925D3FF1200A038B6 /* Signup1ViewController.swift */; };
+		730791FC25D4087F00A038B6 /* PatientMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730791FB25D4087F00A038B6 /* PatientMainPageViewController.swift */; };
+		730ACC15261A1C8F00F81EA9 /* LocationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730ACC14261A1C8F00F81EA9 /* LocationHistory.swift */; };
+		730ACC17261A212200F81EA9 /* LocationHistMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730ACC16261A212200F81EA9 /* LocationHistMainViewController.swift */; };
+		730D135525D6C5A9004B201B /* PatientSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D135425D6C5A9004B201B /* PatientSignUpViewController.swift */; };
+		730D135725D6FC3B004B201B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D135625D6FC3B004B201B /* SearchViewController.swift */; };
+		7338617F25DB3B7B00742174 /* SearchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338617E25DB3B7B00742174 /* SearchProfileViewController.swift */; };
+		733B889325ECFDFF00F2A45B /* RequestCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733B889125ECFDFF00F2A45B /* RequestCellTableViewCell.swift */; };
+		733B889425ECFDFF00F2A45B /* RequestCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733B889225ECFDFF00F2A45B /* RequestCellTableViewCell.xib */; };
+		73587639260A1F5800BE2042 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73587638260A1F5800BE2042 /* HealthDataViewController.swift */; };
+		7358763B260A312700BE2042 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358763A260A312700BE2042 /* ReportsViewController.swift */; };
+		7358763D260A31BE00BE2042 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358763C260A31BE00BE2042 /* DataViewController.swift */; };
+		7358763F260A443000BE2042 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358763E260A443000BE2042 /* Message.swift */; };
+		73779C952619DE1100A6ACB0 /* LocationHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73779C942619DE1100A6ACB0 /* LocationHistoryViewController.swift */; };
+		737C3F4126135AE600DF64A7 /* CaregiverEmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C3F4026135AE600DF64A7 /* CaregiverEmergencyViewController.swift */; };
+		73922ED725DC1A7900D94070 /* CaregiverProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73922ED625DC1A7900D94070 /* CaregiverProfileViewController.swift */; };
+		73922ED925DC312600D94070 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73922ED825DC312600D94070 /* RequestsViewController.swift */; };
+		73D5AAF825D48B26005BD5FA /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5AAF725D48B26005BD5FA /* PatientProfileViewController.swift */; };
+		73D5AAFA25D48B5E005BD5FA /* PatientStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5AAF925D48B5E005BD5FA /* PatientStatusViewController.swift */; };
+		73D5AAFC25D48DB6005BD5FA /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5AAFB25D48DB6005BD5FA /* LocationViewController.swift */; };
+		73E1D38C25D16B2E00167525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1D38B25D16B2E00167525 /* AppDelegate.swift */; };
+		73E1D38E25D16B2E00167525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1D38D25D16B2E00167525 /* SceneDelegate.swift */; };
+		73E1D39025D16B2E00167525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1D38F25D16B2E00167525 /* ViewController.swift */; };
+		73E1D39325D16B2E00167525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E1D39125D16B2E00167525 /* Main.storyboard */; };
+		73E1D39525D16B2E00167525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E1D39425D16B2E00167525 /* Assets.xcassets */; };
+		73E1D39825D16B2E00167525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E1D39625D16B2E00167525 /* LaunchScreen.storyboard */; };
+		73E1D3A225D16DD200167525 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E1D3A125D16DD200167525 /* GoogleService-Info.plist */; };
+		73E1D3A625D199D500167525 /* CaregiverSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1D3A525D199D500167525 /* CaregiverSignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E60467AC0D15693167CBBC2 /* Pods-Ecare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecare.release.xcconfig"; path = "Target Support Files/Pods-Ecare/Pods-Ecare.release.xcconfig"; sourceTree = "<group>"; };
+		60948D4A2CBF6C8A38A5820D /* Pods-Ecare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecare.debug.xcconfig"; path = "Target Support Files/Pods-Ecare/Pods-Ecare.debug.xcconfig"; sourceTree = "<group>"; };
+		730062E92611F1170033F7FA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		730062EA2611F1170033F7FA /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		730791F925D3FF1200A038B6 /* Signup1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup1ViewController.swift; sourceTree = "<group>"; };
+		730791FB25D4087F00A038B6 /* PatientMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMainPageViewController.swift; sourceTree = "<group>"; };
+		730ACC14261A1C8F00F81EA9 /* LocationHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistory.swift; sourceTree = "<group>"; };
+		730ACC16261A212200F81EA9 /* LocationHistMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistMainViewController.swift; sourceTree = "<group>"; };
+		730D135425D6C5A9004B201B /* PatientSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSignUpViewController.swift; sourceTree = "<group>"; };
+		730D135625D6FC3B004B201B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7338617E25DB3B7B00742174 /* SearchProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController.swift; sourceTree = "<group>"; };
+		733B889125ECFDFF00F2A45B /* RequestCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCellTableViewCell.swift; sourceTree = "<group>"; };
+		733B889225ECFDFF00F2A45B /* RequestCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestCellTableViewCell.xib; sourceTree = "<group>"; };
+		73587638260A1F5800BE2042 /* HealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		7358763A260A312700BE2042 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		7358763C260A31BE00BE2042 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		7358763E260A443000BE2042 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		73779C942619DE1100A6ACB0 /* LocationHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistoryViewController.swift; sourceTree = "<group>"; };
+		737C3F4026135AE600DF64A7 /* CaregiverEmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverEmergencyViewController.swift; sourceTree = "<group>"; };
+		73922ED625DC1A7900D94070 /* CaregiverProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverProfileViewController.swift; sourceTree = "<group>"; };
+		73922ED825DC312600D94070 /* RequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		73D5AAF725D48B26005BD5FA /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		73D5AAF925D48B5E005BD5FA /* PatientStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientStatusViewController.swift; sourceTree = "<group>"; };
+		73D5AAFB25D48DB6005BD5FA /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		73E1D38825D16B2E00167525 /* Ecare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E1D38B25D16B2E00167525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73E1D38D25D16B2E00167525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73E1D38F25D16B2E00167525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73E1D39225D16B2E00167525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73E1D39425D16B2E00167525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E1D39725D16B2E00167525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73E1D39925D16B2E00167525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E1D3A125D16DD200167525 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73E1D3A525D199D500167525 /* CaregiverSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverSignUpViewController.swift; sourceTree = "<group>"; };
+		B9C77F15912B9951D1047186 /* Pods_Ecare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E1D38525D16B2E00167525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2E72E4B940258EDFC32476 /* Pods_Ecare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D9854636148952730CFB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C77F15912B9951D1047186 /* Pods_Ecare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ADD63BD14C438A6188A05BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60948D4A2CBF6C8A38A5820D /* Pods-Ecare.debug.xcconfig */,
+				4E60467AC0D15693167CBBC2 /* Pods-Ecare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73E1D37F25D16B2E00167525 = {
+			isa = PBXGroup;
+			children = (
+				73E1D38A25D16B2E00167525 /* Ecare */,
+				73E1D38925D16B2E00167525 /* Products */,
+				4ADD63BD14C438A6188A05BC /* Pods */,
+				22D9854636148952730CFB1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73E1D38925D16B2E00167525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E1D38825D16B2E00167525 /* Ecare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E1D38A25D16B2E00167525 /* Ecare */ = {
+			isa = PBXGroup;
+			children = (
+				73E1D38B25D16B2E00167525 /* AppDelegate.swift */,
+				73E1D38D25D16B2E00167525 /* SceneDelegate.swift */,
+				73E1D38F25D16B2E00167525 /* ViewController.swift */,
+				7358763E260A443000BE2042 /* Message.swift */,
+				730ACC14261A1C8F00F81EA9 /* LocationHistory.swift */,
+				73E1D39125D16B2E00167525 /* Main.storyboard */,
+				730ACC16261A212200F81EA9 /* LocationHistMainViewController.swift */,
+				73779C942619DE1100A6ACB0 /* LocationHistoryViewController.swift */,
+				737C3F4026135AE600DF64A7 /* CaregiverEmergencyViewController.swift */,
+				730062E92611F1170033F7FA /* PostCell.swift */,
+				730062EA2611F1170033F7FA /* PostCell.xib */,
+				7358763C260A31BE00BE2042 /* DataViewController.swift */,
+				7358763A260A312700BE2042 /* ReportsViewController.swift */,
+				733B889125ECFDFF00F2A45B /* RequestCellTableViewCell.swift */,
+				733B889225ECFDFF00F2A45B /* RequestCellTableViewCell.xib */,
+				73922ED825DC312600D94070 /* RequestsViewController.swift */,
+				7338617E25DB3B7B00742174 /* SearchProfileViewController.swift */,
+				73587638260A1F5800BE2042 /* HealthDataViewController.swift */,
+				730D135625D6FC3B004B201B /* SearchViewController.swift */,
+				730D135425D6C5A9004B201B /* PatientSignUpViewController.swift */,
+				73D5AAFB25D48DB6005BD5FA /* LocationViewController.swift */,
+				73D5AAF925D48B5E005BD5FA /* PatientStatusViewController.swift */,
+				73D5AAF725D48B26005BD5FA /* PatientProfileViewController.swift */,
+				73922ED625DC1A7900D94070 /* CaregiverProfileViewController.swift */,
+				730791FB25D4087F00A038B6 /* PatientMainPageViewController.swift */,
+				730791F925D3FF1200A038B6 /* Signup1ViewController.swift */,
+				73E1D3A525D199D500167525 /* CaregiverSignUpViewController.swift */,
+				73E1D39425D16B2E00167525 /* Assets.xcassets */,
+				73E1D39625D16B2E00167525 /* LaunchScreen.storyboard */,
+				73E1D39925D16B2E00167525 /* Info.plist */,
+				73E1D3A125D16DD200167525 /* GoogleService-Info.plist */,
+			);
+			path = Ecare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E1D38725D16B2E00167525 /* Ecare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E1D39C25D16B2E00167525 /* Build configuration list for PBXNativeTarget "Ecare" */;
+			buildPhases = (
+				EB7DC4A729713427BFF8930E /* [CP] Check Pods Manifest.lock */,
+				73E1D38425D16B2E00167525 /* Sources */,
+				73E1D38525D16B2E00167525 /* Frameworks */,
+				73E1D38625D16B2E00167525 /* Resources */,
+				8AF9BF7DFC0EC702DDE5441D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecare;
+			productName = Ecare;
+			productReference = 73E1D38825D16B2E00167525 /* Ecare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E1D38025D16B2E00167525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nouran Adel";
+				TargetAttributes = {
+					73E1D38725D16B2E00167525 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 73E1D38325D16B2E00167525 /* Build configuration list for PBXProject "Ecare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E1D37F25D16B2E00167525;
+			productRefGroup = 73E1D38925D16B2E00167525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E1D38725D16B2E00167525 /* Ecare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E1D38625D16B2E00167525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E1D39825D16B2E00167525 /* LaunchScreen.storyboard in Resources */,
+				730062EC2611F1170033F7FA /* PostCell.xib in Resources */,
+				733B889425ECFDFF00F2A45B /* RequestCellTableViewCell.xib in Resources */,
+				73E1D3A225D16DD200167525 /* GoogleService-Info.plist in Resources */,
+				73E1D39525D16B2E00167525 /* Assets.xcassets in Resources */,
+				73E1D39325D16B2E00167525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AF9BF7DFC0EC702DDE5441D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecare/Pods-Ecare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecare/Pods-Ecare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecare/Pods-Ecare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7DC4A729713427BFF8930E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E1D38425D16B2E00167525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7358763B260A312700BE2042 /* ReportsViewController.swift in Sources */,
+				73922ED925DC312600D94070 /* RequestsViewController.swift in Sources */,
+				730D135525D6C5A9004B201B /* PatientSignUpViewController.swift in Sources */,
+				730D135725D6FC3B004B201B /* SearchViewController.swift in Sources */,
+				733B889325ECFDFF00F2A45B /* RequestCellTableViewCell.swift in Sources */,
+				730791FC25D4087F00A038B6 /* PatientMainPageViewController.swift in Sources */,
+				73E1D39025D16B2E00167525 /* ViewController.swift in Sources */,
+				730ACC15261A1C8F00F81EA9 /* LocationHistory.swift in Sources */,
+				7358763F260A443000BE2042 /* Message.swift in Sources */,
+				73E1D38C25D16B2E00167525 /* AppDelegate.swift in Sources */,
+				730791FA25D3FF1200A038B6 /* Signup1ViewController.swift in Sources */,
+				737C3F4126135AE600DF64A7 /* CaregiverEmergencyViewController.swift in Sources */,
+				730ACC17261A212200F81EA9 /* LocationHistMainViewController.swift in Sources */,
+				73587639260A1F5800BE2042 /* HealthDataViewController.swift in Sources */,
+				73779C952619DE1100A6ACB0 /* LocationHistoryViewController.swift in Sources */,
+				7358763D260A31BE00BE2042 /* DataViewController.swift in Sources */,
+				7338617F25DB3B7B00742174 /* SearchProfileViewController.swift in Sources */,
+				73D5AAFA25D48B5E005BD5FA /* PatientStatusViewController.swift in Sources */,
+				73E1D3A625D199D500167525 /* CaregiverSignUpViewController.swift in Sources */,
+				73D5AAFC25D48DB6005BD5FA /* LocationViewController.swift in Sources */,
+				73922ED725DC1A7900D94070 /* CaregiverProfileViewController.swift in Sources */,
+				73E1D38E25D16B2E00167525 /* SceneDelegate.swift in Sources */,
+				73D5AAF825D48B26005BD5FA /* PatientProfileViewController.swift in Sources */,
+				730062EB2611F1170033F7FA /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73E1D39125D16B2E00167525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E1D39225D16B2E00167525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73E1D39625D16B2E00167525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E1D39725D16B2E00167525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73E1D39A25D16B2E00167525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73E1D39B25D16B2E00167525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E1D39D25D16B2E00167525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60948D4A2CBF6C8A38A5820D /* Pods-Ecare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5Z3TD56;
+				INFOPLIST_FILE = Ecare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.Ecare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E1D39E25D16B2E00167525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E60467AC0D15693167CBBC2 /* Pods-Ecare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5Z3TD56;
+				INFOPLIST_FILE = Ecare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.Ecare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E1D38325D16B2E00167525 /* Build configuration list for PBXProject "Ecare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E1D39A25D16B2E00167525 /* Debug */,
+				73E1D39B25D16B2E00167525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E1D39C25D16B2E00167525 /* Build configuration list for PBXNativeTarget "Ecare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E1D39D25D16B2E00167525 /* Debug */,
+				73E1D39E25D16B2E00167525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E1D38025D16B2E00167525 /* Project object */;
+}
