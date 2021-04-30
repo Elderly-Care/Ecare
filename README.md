@@ -50,3 +50,23 @@ For more details about indoor poisitioning system from the ESP32 side [click her
 For more details about indoor poisitioning system from the fitbit side [click here](https://github.com/Elderly-Care/Ecare/tree/main/fitbit)
 - **Communication** Channel between patient and caregiver
 This can be viewed from our frontend applications using [Android](https://github.com/Elderly-Care/Ecare/tree/main/androidApp) and [iOS](https://github.com/Elderly-Care/Ecare/tree/main/iOS)
+
+# Development Tools
+
+### For the development tools we used:
+
+- Android Studio (Using Java)
+  - For Android development
+- xCode (using Swift)
+  - For iOS development
+- Arduino IDE
+  - For the development on the ESP32 for the IPS
+- Google Platform
+  - To deploy our backend on google's cloud server
+- Fitbit studio (Node.js)
+  - To develop two applications
+    - Data collection for the dataset
+    - Clock face for fall detection
+- Firebase (Firestore, Realtime Database and Authentication)
+  - Firebase is our database  
+
