@@ -40,7 +40,7 @@ E-care is a system that continuously monitors elderly people’s health and well
 -- Skin Temperature
 -- Step Count and Calories Burnt
 -- Sleeping Patterns
- View How we got the health tracking via backend [here](https://github.com/Elderly-Care/Ecare/tree/main/backend)
+View How we got the health tracking via backend [here](https://github.com/Elderly-Care/Ecare/tree/main/backend)
 - **Fall Detection**
 -- Developed our own dataset for Fall Detection
 -- Developed a machine learning model for Fall Detection
