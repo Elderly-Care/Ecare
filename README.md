@@ -69,5 +69,5 @@ This can be viewed from our frontend applications using [Android](https://github
     - Data collection for the dataset
     - Clock face for fall detection
 - Firebase (Firestore, Realtime Database and Authentication)
-  - Firebase is our database  
+  - Firestore is our main database  
 
