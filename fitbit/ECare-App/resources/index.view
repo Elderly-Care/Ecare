@@ -1,0 +1,14 @@
+<svg class="background">
+  <text id="myLabel" />
+  <text id="myBatteryLabel" />
+  <text id="myHRLabel" />
+  <image id="Ecare" href="icon.png"/>
+  <image id="batteryLogo" href="battery.png"/>
+  <image id="HR" href="hr.png"/>
+  <image id="abc" href="abc.png"/>
+  
+</svg>
+
+<!-- <svg>
+  <image x="68" y="68" width="80" height="80" href="icon.png" />
+</svg> -->

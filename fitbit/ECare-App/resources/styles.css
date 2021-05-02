@@ -1,0 +1,38 @@
+.background {
+  viewport-fill: #000000;
+}
+
+#myLabel {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#myBatteryLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 23%;
+  y: 28%;
+  fill: white;
+}
+
+#myHRLabel {
+  font-size: 35;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50+80%;
+  fill: white;
+}
+
+#Ecare {x: 45%; y: 1%; width:"160"; height:"160"; visibility: 'visible';}
+#batteryLogo{x: 2%; y: 18%; width:"50"; height:"40"; visibility: 'visible';}
+#HR{x: 50%; y: 50%; width:"50"; height:"40"; visibility: 'visible';}
+#abc{x: 50%; y: 50%; width:"50"; height:"50"; visibility: 'hidden';}
