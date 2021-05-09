@@ -1,3 +1,3 @@
 # Android app walkthrough
 
-<img src = "media/android_flow.png" width ="200" />
+<img src = "media/android_flow.png" />
