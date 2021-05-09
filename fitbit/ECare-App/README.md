@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td  align="center"><img src="https://github.com/Elderly-Care/Ecare/blob/main/media/clock_face.png" ></td>
+    <td  align="center"><img src="https://github.com/Elderly-Care/Ecare/blob/main/media/clock_face.jpeg" ></td>
   </tr>
 
 </table>
