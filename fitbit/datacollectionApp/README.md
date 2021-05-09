@@ -1,6 +1,6 @@
 # Data Collection application of Fitbit
 
-<img src="" alt="drawing" width="200"/>
+<img src="https://github.com/Elderly-Care/Ecare/blob/main/media/data_collection_app.png" alt="drawing" width="200"/>
 
 We Developed an application on fitbit in order to collect data for the machine learning model. 
 
