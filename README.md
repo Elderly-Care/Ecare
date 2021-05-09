@@ -27,6 +27,15 @@ E-care is a system that continuously monitors elderly people’s health and well
 
 </table>
 
+# How to use the system
+
+<table>
+  <tr>
+    <td  align="center"><img src="./media/How_to_use.png" ></td>
+  </tr>
+
+</table>
+
 # System Users
 
 ### The system has two types of users:
