@@ -1,6 +1,6 @@
 # Fitbit ECare clock face
 
-<img src= />
+<img src="https://github.com/Elderly-Care/Ecare/blob/main/media/clock_face.jpeg" />
 
 ECare's clock face app is always sending accelerometer and gyroscope readings to firebase in order to run the fall detection ML model.
 
