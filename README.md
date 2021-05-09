@@ -8,9 +8,13 @@ ECare is the gradution project of 5 graduating seniors from the American Univers
 # Vision
 E-care is a system that continuously monitors elderly people’s health and wellbeing through smartwatches. The system mainly focuses on **Fall Detection** and **Indoor Localization**. Moreover,  the application also aims to  facilitate the **communication** between the elderly and their caregivers by having a communication channel and providing real-time **health data and reports**.
 
-# ECare Promo
+## ECare Promo
 
 [Please Click here to view ECare's promo](https://drive.google.com/file/d/1B5dMfKcqbCG69eZ81xaol0qKcQeJgtZE/view?usp=sharing)
+
+## Final presentation
+
+[Click here to view the presentation video of ECare](https://drive.google.com/file/d/1lKASPLZX-wKjvMY91JAqpMfvCCaYAEbr/view?usp=sharing)
 
 # System Hardware Requirements
 
