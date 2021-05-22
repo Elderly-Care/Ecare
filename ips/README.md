@@ -14,7 +14,8 @@
 
 ## Implementation
 * Arduino IDE was used to program the ESP32 which are the microcontrollers
-to be put in each room.
+to be put in each room. <div style="text-align:center"><img src="https://github.com/Elderly-Care/Ecare/blob/main/media/Arduino_logo.png" width="100" height="100"></div>
+
 * The ESP32s act as the BLE client searching for the smartwatch
 at all times.
 *  Whenever the smartwatch MAC address is found within a certain range
